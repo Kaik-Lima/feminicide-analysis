@@ -1,4 +1,5 @@
 import pandas as pd
+import matplotlib.pyplot as plt
 
 datas = pd.read_csv('datas_feminicidio.csv', delimiter=',')
 # Excluindo coluna de indice
